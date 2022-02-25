@@ -23,7 +23,7 @@ try:
     time.sleep(1)
 
     login_button = driver.find_element(By.ID, "index_login_button").click()
-    time.sleep(2)
+    time.sleep(1)
     friends = driver.find_element(By.ID, "l_fr").click()
     time.sleep(2)
     search_people = driver.find_element(By.ID, "s_search")
