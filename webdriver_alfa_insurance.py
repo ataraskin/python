@@ -4,7 +4,6 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
-
 driver_service=Service(executable_path="/Users/alextaraskin/Desktop/learning_python/chromedriver")
 driver=webdriver.Chrome(service=driver_service)
 driver.maximize_window()
