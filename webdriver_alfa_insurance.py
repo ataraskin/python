@@ -10,6 +10,7 @@ driver.maximize_window()
 
 try:
     driver.get("https://www.alfastrah.ru/individuals/auto/eosago/calc/min/")
+    time.sleep(5)
     driver.execute_script("window.scrollTo(0, 300)")
     city = driver.find_element(by=By.ID, value="city")
     city.send_keys("Москва")
